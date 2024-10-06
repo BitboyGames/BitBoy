@@ -1,0 +1,160 @@
+.preorder-wrapper {
+  // max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+
+  .pc {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+
+  .bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    // width: 60vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content-left {
+      .title {
+        width: 460px;
+      }
+      >p {
+        width: 554px;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 32px;
+        text-align: left;
+        font-style: normal;
+        line-height: 1.7;
+        margin: 16px 0 60px;
+      }
+      .input-box {
+        width: 547px;
+        height: 72px;
+        background: #fff;
+        border-radius: 36px;
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        padding: 0 8px 0 32px;
+        >input {
+          flex: 1;
+          font-size: 18px;
+          color: #1f1f1f;
+        }
+        >button {
+          cursor: pointer;
+          width: 167px;
+          height: 56px;
+          line-height: 56px;
+          border-radius: 30px;
+          background: linear-gradient(to left, #0CF3A8 0%, #DA21FE 100%);
+          font-weight: bold;
+          font-size: 20px;
+          color: #FFFFFF;
+          text-align: center;
+          border: none;
+          padding: 0;
+          transition: all 0.2s ease-in;
+          &:hover {
+            transform: scale(1.03);
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+
+    .bitboy-preview {
+      width: 40vw;
+      height: 40vw;
+      max-width: 520px;
+      max-height: 520px;
+      position: relative;
+      user-select: none;
+      overflow: hidden;
+      object-fit: contain;
+
+      .loading-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+      }
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+  .preorder-wrapper {
+    padding: 0 24px;
+    .pc {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+    .content {
+      flex-direction: column;
+      .content-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+          width: 80%;
+        }
+        >p {
+          width: 84%;
+          font-size: 16px;
+          line-height: 1.8;
+          text-align: center;
+        }
+        .input-box {
+          width: 100%;
+          height: 52px;
+          margin-bottom: 20px;
+          >input {
+            font-size: 14px;
+          }
+          >button {
+            width: auto;
+            padding: 0 16px;
+            height: 36px;
+            line-height: 36px;
+            font-size: 14px;
+          }
+        }
+      }
+      .bitboy-preview {
+        width: 70vw;
+        height: 70vw;
+        // margin-bottom: 24px;
+      }
+    }
+  }
+}
