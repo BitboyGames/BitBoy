@@ -1,0 +1,133 @@
+:root {
+  --max-width: 1280px;
+  --theme-color: #FF6300;
+  --error-color: #FF0000;
+  --theme-color-blur: #5296f7;
+  --font-color: #FFF;
+  --background: #000;
+  --base-font: 14px;
+  --font-family: 'w-Helvetica';
+  --font-family-title: 'w-Helvetica';
+}
+
+* {
+  box-sizing: border-box;
+  &::selection {
+    background: var(--theme-color);
+    color: #fff;
+  }
+}
+
+*, body, html {
+  padding: 0;
+  margin: 0;
+  // font-family: 'Press Start 2P', sans-serif;
+  font-family: var(--font-family);
+}
+
+html {
+  font-size: var(--base-font);
+  line-height: 1;
+ }
+
+body {
+  display: block;
+  min-height: 100vh;
+  color: var(--font-color);
+  background: var(--background);
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 6px;
+    }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #808080;
+    }
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #404040;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-corner {
+    // display: none;
+    opacity: 0;
+  }
+}
+
+a {
+  color: var(--font-color);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+ol, ul {
+  overflow: hidden;
+}
+
+dl {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+input {
+  color: #b5b5b5;
+  background-color: #141414;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}
+
+input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+.message-container-box {
+  display: none;
+  height: 28px;
+  padding: 5px 30px;
+  font-size: 14px;
+  //line-height: 28px;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 3px;
+  text-align: center;
+  background-color: #6F767E;
+  color: #BFC500;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  z-index: 999;
+  transform: translateY(-50%);
+}
+.active-message-wrapper {
+  display: flex;
+  //opacity: 0;
+  //transform: translateY(-30px);
+  //transition: all 1s;
+}
