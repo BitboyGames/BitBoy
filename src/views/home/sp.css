@@ -1,0 +1,344 @@
+.sp-track-1 {
+  width: 100%;
+  max-width: 1280px;
+  height: 600px;
+  padding: 0 40px;
+}
+.sp-track-1 .sp-screen-1 {
+  position: relative;
+  padding: 100px 42px 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border-radius: 0 0 24px 24px;
+}
+.sp-track-1 .sp-screen-1 h1 {
+  font-size: 86px;
+}
+.sp-track-1 .sp-screen-1 h3 {
+  font-size: 32px;
+  line-height: 1.4;
+  margin-top: 24px;
+}
+.sp-track-1 .sp-screen-1 > p {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.sp-track-1 .sp-screen-1 > p > span {
+  color: #fff 9;
+}
+.sp-track-1 .sp-screen-1 .mask {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(255, 99, 0, 0.3) 70%, #ff6300);
+  border-radius: 0 0 24px 24px;
+}
+.sp-track-1 .sp-screen-1 .sp1-video {
+  opacity: 1;
+  position: absolute;
+  z-index: -2;
+  right: -24%;
+  top: 0;
+  height: 100%;
+}
+.sp-track-1 .sp-screen-1 .sp1-video-2 {
+  opacity: 0;
+  position: absolute;
+  z-index: -3;
+  right: -24%;
+  top: 0;
+  height: 100%;
+}
+.sp-track-1 .sp-screen-1 .mobile-video-box {
+  display: none;
+}
+.sp-track-2 {
+  width: 100%;
+  padding: 0 40px;
+  max-width: 1280px;
+  margin-top: 120px;
+  border-radius: 30px;
+}
+.sp-track-2 .sp-screen-2 {
+  position: relative;
+  width: 100%;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(138, 138, 138, 0.2) 0%, rgba(138, 138, 138, 0.2) 100%);
+}
+.sp-track-2 .sp-screen-2 .sp2-video-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: rgba(6, 6, 6, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sp-track-2 .sp-screen-2 .sp2-video-mask .sp2-video-mask-btn {
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sp-track-2 .sp-screen-2 .sp2-video-mask .sp2-video-mask-btn > img {
+  width: 75px;
+}
+.sp-track-2 .sp-screen-2 .sp2-video-box {
+  width: 100%;
+  border-radius: 30px;
+}
+.sp-track-2 .sp-screen-2 .sp2-video-box > video {
+  width: 100%;
+  border-radius: 30px;
+}
+.sp-track-3 .sp-screen-3 .text-box {
+  width: 900px;
+}
+.sp-track-3 .sp-screen-3 .text-box .text-content {
+  width: 100%;
+}
+.sp-track-3 .sp-screen-3 .text-box .text-content p {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.4;
+  font-weight: normal;
+  position: relative;
+  display: flex;
+  height: auto;
+  margin-bottom: 24px;
+}
+.sp-track-3 .sp-screen-3 .text-box .text-content p:last-of-type {
+  margin-bottom: 0;
+}
+.sp-track-3 .sp-screen-3 .text-box .text-content p span {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sp-track-3 .sp-screen-3 .text-box .text-content p span.opacity-50 {
+  opacity: 0.5;
+}
+.sp-track-4 .sp-screen-4 .bitboy-preview {
+  width: 436px;
+  height: 436px;
+  position: relative;
+  user-select: none;
+  overflow: hidden;
+  object-fit: contain;
+}
+.sp-track-4 .sp-screen-4 .sp4-desc {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 24px;
+}
+.sp-track-4 .sp-screen-4 .sp4-desc > a {
+  color: var(--theme-color);
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+.sp-track-4 .sp-screen-4 .sp4-desc > a:hover {
+  opacity: 0.8;
+}
+.sp-track-4 .sp-screen-4 .sp4-desc:last-of-type {
+  margin-top: 18px;
+}
+.sp-track-5 {
+  z-index: 1;
+  width: 100%;
+  height: 400vh;
+  position: relative;
+  background: #000;
+}
+.sp-track-5 .sp-screen-5 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box {
+  z-index: 5;
+  position: absolute;
+  left: 10%;
+  top: 12%;
+  will-change: opacity, transform;
+  opacity: 1;
+  transform: translateY(0);
+  transform-style: preserve-3d;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  opacity: 0;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-row.show {
+  opacity: 1;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-row .slider-row-item {
+  position: relative;
+  width: 120px;
+  height: 6px;
+  overflow: hidden;
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-row .slider-row-item.activity {
+  opacity: 1;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-row .slider-row-item .normal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-row .slider-row-item .active {
+  will-change: transform;
+  transform: translateX(-100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-title {
+  margin-top: 32px;
+  position: relative;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-title .slider-title-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: opacity, filter;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-title .slider-title-item.show {
+  opacity: 1;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-title h6 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .slider-box .slider-title p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .sp-screen-5-content-title {
+  width: 100%;
+  position: absolute;
+  left: 10%;
+  bottom: 14%;
+  will-change: opacity, transform;
+  opacity: 1;
+  transform: translateY(0);
+  transform-style: preserve-3d;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .sp-screen-5-content-title h5 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.4;
+  color: #fff;
+  will-change: opacity, filter;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .sp-screen-5-content-title h5.show {
+  opacity: 1;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .sp5-video-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  will-change: filter, opacity, transform;
+  opacity: 1;
+  filter: blur(0);
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .sp5-video-box video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .sp5-video-box .sp5-video-1 {
+  z-index: 1;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .sp5-video-box .sp5-video-2 {
+  z-index: -1;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .sp5-video-box .sp5-video-3 {
+  z-index: -2;
+}
+.sp-track-5 .sp-screen-5 .sp-screen-5-content .sp5-video-box .sp5-video-4 {
+  z-index: -3;
+}
+.sp-track-6 .sp-screen-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sp-track-6 .sp-screen-6 > img {
+  width: 783px;
+}
+.sp-track-6 .sp-screen-6 .hardware-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.sp-track-6 .sp-screen-6 .hardware-list .hardware-item {
+  width: 357px;
+  padding: 42px 24px;
+  background: linear-gradient(270deg, #080808 0%, #1a1a1a 100%);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+.sp-track-6 .sp-screen-6 .hardware-list .hardware-item img {
+  width: 40px;
+  margin-bottom: 26px;
+}
+.sp-track-6 .sp-screen-6 .hardware-list .hardware-item h6 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.sp-track-6 .sp-screen-6 .hardware-list .hardware-item p {
+  font-size: 13px;
+}

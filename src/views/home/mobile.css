@@ -1,0 +1,157 @@
+@media screen and (max-width: 540px) {
+  .home-wrapper-v3 .highlight-title {
+    font-size: 24px;
+    margin: 0;
+    transform: translateY(0%);
+ }
+  .home-wrapper-v3 .highlight-title > p {
+    margin: 0;
+    padding: 60px 0;
+ }
+  .home-wrapper-v3 .sp-track-1 {
+    width: 100%;
+    height: auto;
+    padding: 0 12px;
+ }
+  .home-wrapper-v3 .sp-track-1 .sp-screen-1 {
+    padding: 40px 12px;
+    text-align: center;
+    border-radius: 14px;
+ }
+  .home-wrapper-v3 .sp-track-1 .sp-screen-1 h1 {
+    font-size: 32px;
+ }
+  .home-wrapper-v3 .sp-track-1 .sp-screen-1 h3 {
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 36px;
+ }
+  .home-wrapper-v3 .sp-track-1 .sp-screen-1 p {
+    font-size: 16px;
+ }
+  .home-wrapper-v3 .sp-track-1 .sp-screen-1 .mask {
+    display: none;
+    border-radius: 14px;
+    background: none;
+ }
+  .home-wrapper-v3 .sp-track-1 .sp-screen-1 .sp1-video, .home-wrapper-v3 .sp-track-1 .sp-screen-1 .sp1-video-2 {
+    display: none;
+    width: auto;
+    height: 60%;
+    top: auto;
+    right: auto;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+  .home-wrapper-v3 .sp-track-1 .sp-screen-1 .mobile-video-box {
+    display: block;
+    position: relative;
+    height: 200px;
+    margin-bottom: 12px;
+ }
+  .home-wrapper-v3 .sp-track-1 .sp-screen-1 .sp1-video-3 {
+    opacity: 1;
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+ }
+  .home-wrapper-v3 .sp-track-1 .sp-screen-1 .sp1-video-4 {
+    opacity: 0;
+    position: absolute;
+    z-index: -3;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+ }
+  .home-wrapper-v3 .sp-track-5 .sp-screen-5-content .slider-box {
+    width: 100%;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) !important;
+ }
+  .home-wrapper-v3 .sp-track-5 .sp-screen-5-content .slider-box .slider-row {
+    gap: 12px;
+ }
+  .home-wrapper-v3 .sp-track-5 .sp-screen-5-content .slider-box .slider-row .slider-row-item {
+    width: 20%;
+ }
+  .home-wrapper-v3 .sp-track-5 .sp-screen-5-content .slider-box .slider-title {
+    margin-top: 24px;
+ }
+  .home-wrapper-v3 .sp-track-5 .sp-screen-5-content .slider-box .slider-title .slider-title-item {
+    width: 100%;
+    text-align: center;
+ }
+  .home-wrapper-v3 .sp-track-5 .sp-screen-5-content .slider-box .slider-title .slider-title-item h6 {
+    font-size: 18px;
+ }
+  .home-wrapper-v3 .sp-track-5 .sp-screen-5-content .slider-box .slider-title .slider-title-item p {
+    font-size: 14px;
+ }
+  .home-wrapper-v3 .sp-track-5 .sp-screen-5-content .sp-screen-5-content-title {
+    left: 50%;
+    transform: translateX(-50%) !important;
+    bottom: 20%;
+ }
+  .home-wrapper-v3 .sp-track-5 .sp-screen-5-content .sp-screen-5-content-title h5 {
+    text-align: center;
+    font-size: 18px;
+ }
+  .home-wrapper-v3 .sp-track-3 {
+    width: 100%;
+ }
+  .home-wrapper-v3 .sp-track-3 .sp-screen-3 {
+    width: 100%;
+    padding: 0 24px;
+ }
+  .home-wrapper-v3 .sp-track-3 .sp-screen-3 .text-box {
+    width: 100%;
+ }
+  .home-wrapper-v3 .sp-track-3 .sp-screen-3 .text-box .text-content p {
+    font-size: 16px;
+ }
+  .home-wrapper-v3 .sp-track-2 {
+    padding: 0 24px;
+    margin-top: 62px;
+    border-radius: 12px;
+ }
+  .home-wrapper-v3 .sp-track-2 .sp-screen-2 {
+    border-radius: 12px;
+ }
+  .home-wrapper-v3 .sp-track-2 .sp-screen-2 .sp2-video-mask {
+    border-radius: 12px;
+ }
+  .home-wrapper-v3 .sp-track-2 .sp-screen-2 .sp2-video-mask .sp2-video-mask-btn {
+    width: 72px;
+    height: 72px;
+ }
+  .home-wrapper-v3 .sp-track-2 .sp-screen-2 .sp2-video-mask .sp2-video-mask-btn > img {
+    width: 30px;
+ }
+  .home-wrapper-v3 .sp-track-2 .sp-screen-2 .sp2-video-box {
+    border-radius: 12px;
+ }
+  .home-wrapper-v3 .sp-track-2 .sp-screen-2 .sp2-video-box > video {
+    border-radius: 12px;
+ }
+  .home-wrapper-v3 .sp-track-4 .sp-screen-4 .bitboy-preview {
+    width: 320px;
+    height: 320px;
+ }
+  .home-wrapper-v3 .sp-track-6 .sp-screen-6 > img {
+    width: 100vw;
+ }
+  .home-wrapper-v3 .sp-track-6 .sp-screen-6 .hardware-list {
+    gap: 12px;
+    grid-template-columns: repeat(1, 1fr);
+ }
+  .home-wrapper-v3 .faq-box {
+    width: 100%;
+    padding: 0 24px;
+ }
+}
