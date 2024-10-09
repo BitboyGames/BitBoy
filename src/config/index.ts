@@ -1,0 +1,32 @@
+export default {
+  baseURL: '',
+  background: '#000000',
+  player: window.location.origin + '/images/player.png?=1000',
+  coin: 'https://assets.bitboy.games/rush-map-editor/coin.png',
+  brick: 'https://assets.bitboy.games/rush-map-editor/store.png',
+  level: [
+    '                                                                                ',
+    '                                                                                ',
+    '                                                                                ',
+    '                                                                                ',
+    '                                                                                ',
+    '                                                                  xxx           ',
+    '                                                   xx      xx    xx!xx          ',
+    '                                    o o      xx                  x!!!x          ',
+    '                                                                 xx!xx          ',
+    '                                   xxxxx                          xvx           ',
+    '                                                                            xx  ',
+    '  xx                                      o o                                x  ',
+    '  x                     o                                                    x  ',
+    '  x                                      xxxxx                             o x  ',
+    '  x          xxxx       o                                                    x  ',
+    '  x  @       x  x                                                xxxxx       x  ',
+    '  xxxxxxxxxxxx  xxxxxxxxxxxxxxx   xxxxxxxxxxxxxxxxxxxx     xxxxxxx   xxxxxxxxx  ',
+    '                              x   x                  x     x                    ',
+    '                              x!!!x                  x!!!!!x                    ',
+    '                              x!!!x                  x!!!!!x                    ',
+    '                              xxxxx                  xxxxxxx                    ',
+    '                                                                                ',
+    '                                                                                '
+  ]
+}
